@@ -89,9 +89,14 @@ This project showcases the architecture of a typical **E-commerce application** 
 2. Configure your `mcp.json`.
 3. Run:
 
+
+<img width="1572" height="538" alt="image" src="https://github.com/user-attachments/assets/7582a668-59b2-4e0f-ac2e-4d98ef1706a8" />
+
 ```bash
 q describe-architecture --output diagram.png
 ```
+
+
 
 4. View the output diagram (`diagram.png`) showcasing all Kubernetes components auto-discovered via MCP.
 
