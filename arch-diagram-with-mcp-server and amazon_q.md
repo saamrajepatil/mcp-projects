@@ -66,6 +66,7 @@ Linux / WSL
 sudo snap install astral-uv --classic
 
 ---
+<img width="1600" height="553" alt="image" src="https://github.com/user-attachments/assets/f0605847-d62c-42d0-a837-660767084fa1" />
 
 ### 🚀 Workflow: Generate AWS Diagram
 
