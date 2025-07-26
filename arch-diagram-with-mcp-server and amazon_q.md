@@ -12,6 +12,9 @@ This guide shows how to install **Amazon Q CLI** on Linux, set up **MCP server
 * **MCP** stands for **Model Context Protocol**, a standardized interface that allows external tools (MCP servers) to provide context-aware data and logic to AI agents like Amazon Q CLI.
 * Example MCP servers include AWS Diagram MCP (for generating visuals) and Documentation MCP (for fetching AWS best practices).
 
+* <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/146f5e9f-0e82-4bd0-a2ef-0a262f95e174" />
+
+
 ---
 
 ### 🧪 Linux Setup (Ubuntu )
