@@ -3,14 +3,14 @@
 
 #### Overview
 
-This guide shows how to install **Amazon Q CLI** on Linux, set up **MCP servers**, and use them to generate AWS architecture diagrams from natural-language prompts. MCP enables Amazon Q to access context (e.g., AWS icons, documentation, and drawing logic) via lightweight plugin servers, significantly enhancing diagram generation capabilities ([Medium][1], [LinkedIn][2]).
+This guide shows how to install **Amazon Q CLI** on Linux, set up **MCP servers**, and use them to generate AWS architecture diagrams from natural-language prompts. MCP enables Amazon Q to access context (e.g., AWS icons, documentation, and drawing logic) via lightweight plugin servers, significantly enhancing diagram generation capabilities.
 
 ---
 
 ### 🔧 What Is MCP?
 
 * **MCP** stands for **Model Context Protocol**, a standardized interface that allows external tools (MCP servers) to provide context-aware data and logic to AI agents like Amazon Q CLI.
-* Example MCP servers include AWS Diagram MCP (for generating visuals) and Documentation MCP (for fetching AWS best practices) ([Amazon Web Services, Inc.][3]).
+* Example MCP servers include AWS Diagram MCP (for generating visuals) and Documentation MCP (for fetching AWS best practices).
 
 ---
 
@@ -59,8 +59,8 @@ Create MCP configuration file at `~/.aws/amazonq/mcp.json`:
   }
 }
 ```
-
-Install `uvx` (via pip or snap) to run MCP servers ([DEV Community][4], [Medium][1], [Amazon Web Services, Inc.][3]).
+Linux / WSL
+sudo snap install astral-uv --classic
 
 ---
 
@@ -82,7 +82,7 @@ Install `uvx` (via pip or snap) to run MCP servers ([DEV Community][4], [Medium]
    * Fetch AWS docs using Documentation MCP tool
    * Generate Python code with the Diagram MCP server
    * Render an architecture diagram (e.g., PNG/SVG)
-   * Save it to `~/.aws/amazonq/generated-diagrams/` ([Amazon Web Services, Inc.][3])
+   * Save it to `~/.aws/amazonq/generated-diagrams/`
 
 ---
 
@@ -109,6 +109,11 @@ User prompt → Amazon Q CLI → MCP Documentation tool → Best-practice valida
 ```
 
 ---
+
+Please find the migration zantac migration project architecture digram i created with amazon q and mcp setup.
+
+<img width="3053" height="6949" alt="cloud-migration-architecture" src="https://github.com/user-attachments/assets/cb4c30e9-627e-4ab3-9d38-4bc27143c586" />
+
 
 ### ✅ Benefits
 
