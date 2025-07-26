@@ -119,5 +119,5 @@ Please find the migration zantac migration project architecture digram i created
 
 * No need for manual Visio/drawing tools
 * Diagrams adhere to AWS best practices automatically
-* Iterative diagram revision via prompt refinement (e.g. changing services or layout) ([DEV Community][4], [Amazon Web Services, Inc.][3], [LinkedIn][2])
+* Iterative diagram revision via prompt refinement (e.g. changing services or layout).
 
